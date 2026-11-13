@@ -126,8 +126,6 @@ def get_content(target):
         browser = Browser(
             "firefox",
             headless=True,
-            timeout=1000,
-            wait_time=200,
             profile_preferences={
                 "network.cookie.cookieBehavior": 0
             }
